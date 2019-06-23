@@ -1,1 +1,2 @@
 "# Data-Cache-Simulator" 
+The goal of this application is to simulate a data cache and the amount of time it would take to complete tasks given memory addresses, and the data that address contains.  It would then parse through all of these addresses and find out the number of hits, misses, dirty misses, and writebacks.  The input is a text file containing in each line the address accessed, and the data within that address afterwards.  It also allows for a "Verbose mode" in which you can specify a set starting and ending line in order to debug the application.
